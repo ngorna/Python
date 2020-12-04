@@ -23,6 +23,7 @@ elif delta == 0:
 
 elif delta < 0:
     print 'Brak miejsc zerowych.'
+    
     sqrtdeltai = math.sqrt(-1 * delta)
     x = str(-1*b/2)
     xi = str(sqrtdeltai/2)
