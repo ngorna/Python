@@ -23,3 +23,9 @@ elif delta == 0:
 
 elif delta < 0:
     print 'Brak miejsc zerowych.'
+    sqrtdeltai = math.sqrt(-1 * delta)
+    x = str(-1*b/2)
+    xi = str(sqrtdeltai/2)
+    x1 = x + ' - ' + xi + 'i'
+    x2 = x + ' + ' + xi + 'i'
+    print 'Miejsca zerowe x funkcji w dziedzinie liczb zespolonych to: ', x1, x2
